@@ -1,0 +1,1 @@
+{"version":3,"sources":["grid.css"],"names":[],"mappings":"AAAA,WAAW,WAAW,iBAAiB,WAAW,cAAc,kBAAkB,iBAAiB,eAAe,eAAe,CAAC,iBAAkB,WAAW,cAAc,UAAU,CAAC","file":"grid.css","sourcesContent":[".container{width:auto;max-width:1440px;float:none;display:block;margin-right:auto;margin-left:auto;padding-left:0;padding-right:0}.container::after{content:'';display:table;clear:both}"]}

@@ -1,0 +1,75 @@
+// $sm = 768px !default;
+// $md = 1024px !default;
+// $lg = 1200px !default;
+//
+// $grid-breakpoints = {
+//   xs: 0,
+//   sm: 576px,
+//   md: 768px,
+//   lg: 992px,
+//   xl: 1200px
+// }
+
+$media = {
+  sm: "only screen and (max-width: 576px)",
+  md: "only screen and (max-width: 768px)",
+  lg: "only screen and (max-width: 992px)",
+  xl: "only screen and (min-width: 1200px)"
+}
+
+media(size)
+  $media[size]
+
+text-font-family = 'Open Sans', sans-serif
+color-text = #162331
+
+color-link = color-text
+color-link-hover = #23364b
+
+// States
+color-error = #f03c69
+color-success = #35beb1
+color-warning = #f7ba45
+color-focus = #1c86f2
+
+// Font Size
+font-size = 16px
+font-size-smaller = font-size - 4px
+font-size-small = font-size - 2px
+font-size-big = font-size + 2px
+font-size-large = font-size + 4px
+
+// Baseline
+base-line = 24px
+base-line-smaller = 20px
+base-line-small = 20px
+base-line-big = 28px
+base-line-large = 32px
+
+// Margin
+text-margin-bottom = font-size
+
+// HEADINGS
+// ---------------------------------------------------------------------------
+
+// Font Size
+// By default: 60, 48, 36, 24, 21, 18, 16
+heading-font-size-title = 60px
+heading-font-size-1 = 48px
+heading-font-size-2 = 36px
+heading-font-size-3 = 24px
+heading-font-size-4 = 21px
+heading-font-size-5 = 18px
+heading-font-size-6 = 16px
+
+// Baseline
+heading-base-line-title = 64px
+heading-base-line-1 = 52px
+heading-base-line-2 = 40px
+heading-base-line-3 = 32px
+heading-base-line-4 = 32px
+heading-base-line-5 = 28px
+heading-base-line-6 = 24px
+
+// Margin
+heading-margin-bottom = font-size
